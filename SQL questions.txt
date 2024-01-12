@@ -1,4 +1,4 @@
-RAPID FIRE - LETS SEE WHAT YOU KNOW WITHOUT LOOKING UP - GO!
+RAPID FIRE - LETS SEE WHAT YOU KNOW - GO!
 
 WHAT IS A DATABASE?
 
@@ -13,3 +13,7 @@ WHAT IS NOSQL?
 NOSQL is a category of databases but it is not relational. It is open-source and allows for a much larger volume of data and different data types.
 
 WHAT IS A PRIMARY KEY
+A primary key is a unique identifier that ensures that each value in a database is a unique value. It is often set to the id, autoincementing and it can not be NULL.
+
+WHAT IS A FOREIGN KEY
+A foreign key is a uniquie identifier in a second table that is connected to the primary key in the first table. This allows you to connect two tables together and compare values.
