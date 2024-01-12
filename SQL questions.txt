@@ -30,3 +30,7 @@ GROUP BY allows you to order the results of your query search by columns but it 
 
 WHAT IS AN INDEX IN SQL?
 An Index in sql is a database object, whose purpose it is to make searches faster for you. You narrow down your search to a specific column. It provides faster results at the cost of using more memory.
+
+WHAT IS UNION and what is UNION ALL in SQL?
+UNION ALL is a way to combine two SELECT statements in SQL together, and it provides only distinct results with no dublicates included. UNION ALL also provides the results of two SELCT statements together, but it includes all results inlcuding duplicate values.
+
