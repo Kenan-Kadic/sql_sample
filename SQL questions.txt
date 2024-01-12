@@ -22,8 +22,11 @@ A foreign key is a uniquie identifier in a second table that is connected to the
 
 WHAT IS ORDER BY?
 
-Order by is a sql clause that allows you to order the results of your query in ascending or descending order.
+ORDER BY is a sql clause that allows you to order the results of your query in ascending or descending order.
 
 WHAT IS GROUP BY?
 
-Group by allows you to order the results of your query search by columns but it is often used for summary columns with aggregate functions like MIN MAX AVG. It is often used to find summarizing information and doing calulation on data such as total sales per year.
+GROUP BY allows you to order the results of your query search by columns but it is often used for summary columns with aggregate functions like MIN MAX AVG. It is often used to find summarizing information and doing calulation on data such as total sales per year.
+
+WHAT IS AN INDEX IN SQL?
+An Index in sql is a database object, whose purpose it is to make searches faster for you. You narrow down your search to a specific column. It provides faster results at the cost of using more memory.
