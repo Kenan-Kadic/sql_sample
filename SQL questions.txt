@@ -34,3 +34,6 @@ An Index in sql is a database object, whose purpose it is to make searches faste
 WHAT IS UNION and what is UNION ALL in SQL?
 UNION ALL is a way to combine two SELECT statements in SQL together, and it provides only distinct results with no dublicates included. UNION ALL also provides the results of two SELCT statements together, but it includes all results inlcuding duplicate values.
 
+WHAT IS THE DIFFERNCE BETWEEN WHERE AND HAVING IN SQL?
+The WHERE clause filters rows before any grouping or aggregation occurs.
+The HAVING clause is filters rows after grouping and aggregation occurs.
