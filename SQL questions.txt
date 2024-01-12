@@ -1,3 +1,15 @@
+RAPID FIRE - LETS SEE WHAT YOU KNOW WITHOUT LOOKING UP - GO!
+
 WHAT IS A DATABASE?
 
 A database is an organized collection of data, set up in such a way that it makes it easy to retrieve, edit update and read that data.
+
+WHAT IS SQL?
+
+SQL stands for Structured Query Language and it is a programming language for relational databases - meaning databates which have rows and columns.
+
+WHAT IS NOSQL?
+
+NOSQL is a category of databases but it is not relational. It is open-source and allows for a much larger volume of data and different data types.
+
+WHAT IS A PRIMARY KEY
