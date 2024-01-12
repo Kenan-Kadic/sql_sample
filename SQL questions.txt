@@ -49,3 +49,6 @@ A RIGHT JOIN is a type of SQL JOIN, in which a colum from the left table has its
 
 WHAT IS A FULL JOIN?
 A FULL JOIN is a type of SQL JOIN, in which a colum from the left table has its values compared to a column from the right table. All results from the right table and left table are displayed. If there is no match, NUll values are presented.
+
+WHAT IS NORMALIZATION?
+Normalization is a organzing and structuring technique for databases, that reduces redundancy and ensures data integrity. It is based on the idea of First Normal Form, Second Normal Form and Third Normal form.
