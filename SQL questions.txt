@@ -37,3 +37,14 @@ UNION ALL is a way to combine two SELECT statements in SQL together, and it prov
 WHAT IS THE DIFFERNCE BETWEEN WHERE AND HAVING IN SQL?
 The WHERE clause filters rows before any grouping or aggregation occurs.
 The HAVING clause is filters rows after grouping and aggregation occurs.
+
+WHAT IS A INNER JOIN?
+An INNER JOIN is a type of SQL join, in which a column from one table has its values compared to a column from another tables. Only if the values match, the results of the quary are presented. 
+
+WHAT IS A LEFT JOIN?
+A LEFT JOIN is a type of SQL JOIN, in which a column from the left table has its values compared to a column from the right table. All results from left table are displayed, while only the matching results from the right able are displayed. If there is no match in the right table, NULL values are presented.
+
+WHAT IS A RIGHT JOIN?
+A RIGHT JOIN is a type of SQL JOIN, in which a colum from the left table has its values compared to a column from the right table. All results from the right table are displyed, while only the matching results from the left table are displayed. If there isn o match in left table, NUll values are presented.
+
+WHAT IS A FULL JOIN?
