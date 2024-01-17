@@ -29,4 +29,17 @@ example
  WHAT DOES UPDATE DO?
  The UPDATE statement is used to modify the data in a table. It allows you to update existing records by changing the values in one or more columns based on a specified condition. 
  
+  EXAMPLE
+  UPDATE celebs
+  SET twitter_handle = '@Kenan'
+  WHERE id = 4;
+
  This is not to be confused with ALTER TABLE which modifies the structure of an existig table by adding or removing columns or changing the structure of data types.
+
+ WHAT DOES DELETE FROM DO?
+The DELETE FROM statement is for deleting existing records. It deletes one or more rows from a table. 
+
+EXAMPLE 
+ DELETE FROM celebs
+ WHERE twitter_handle IS NULL;
+
