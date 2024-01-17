@@ -7,3 +7,14 @@ example
  ALTER TABLE celebs
  ADD COLUMN twitter_handle TEXT;
 
+HOW DO YOU CREATE A NEW TABLE?
+You use the CREATE TABLE clause.
+
+example
+ CREATE TABLE celebs (
+  id INTEGER,
+  name TEXT,
+  age INTEGER,
+ );
+
+ 
