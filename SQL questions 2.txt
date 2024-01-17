@@ -8,7 +8,7 @@ example
  ADD COLUMN twitter_handle TEXT;
 
 HOW DO YOU CREATE A NEW TABLE?
-You use the CREATE TABLE clause.
+You use the CREATE TABLE statement.
 
 example
  CREATE TABLE celebs (
@@ -17,4 +17,16 @@ example
   age INTEGER,
  );
 
+ WHAT DOES INSERT INTO DO?
+ Insert into allows you to insert new records into a table. It will create a new rows
+
+ example
+ INSERT INTO celebs (id, name, age)
+ VALUES (1, 'Justin Bieber', 29);
+
+ Please note that often after creating table you would want to insert into it.
+
+ WHAT DOES UPDATE DO?
+ The UPDATE statement is used to modify the data in a table. It allows you to update existing records by changing the values in one or more columns based on a specified condition. 
  
+ This is not to be confused with ALTER TABLE which modifies the structure of an existig table by adding or removing columns or changing the structure of data types.
