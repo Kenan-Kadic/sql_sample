@@ -43,3 +43,14 @@ EXAMPLE
  DELETE FROM celebs
  WHERE twitter_handle IS NULL;
 
+WHAT ARE CONSTRAINTS?
+
+Constraints restrict the type of data that can be used for a column. If the informaiton added is not in the correct datatype it will be rejected.
+
+EXAMPLE
+ CREATE TABLE celebs (
+   id INTEGER PRIMARY KEY, 
+   name TEXT UNIQUE,
+   date_of_birth TEXT NOT NULL,
+   date_of_death TEXT DEFAULT 'Not Applicable'
+);

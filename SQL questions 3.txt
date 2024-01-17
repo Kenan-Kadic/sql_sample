@@ -1,0 +1,15 @@
+RAPID FIRE - LETS SEE WHAT YOU KNOW - GO!
+
+WHAT SPECIFICALLY ARE THE AGGREGATE FUNCTIONS?
+
+COUNT() Count the number of rows.
+SUM() Sum up values in a column.
+MAX() Find the largest value.
+MIN() Find the smallest value.
+AVG() Find the average.
+ROUND() Round the values.
+
+Most of these aggregate functions go together with
+GROUP BY - used with aggregate functions to combine data from one or more columns
+HAVING - limits the results of a quary based on an aggregate property.
+
