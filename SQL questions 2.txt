@@ -1,0 +1,9 @@
+RAPID FIRE - LETS SEE WHAT YOU KNOW - GO!
+
+WHAT DOES ALTER TABLE DO?
+ALTER TABLE adds a new column to the table
+
+example
+ ALTER TABLE celebs
+ ADD COLUMN twitter_handle TEXT;
+
