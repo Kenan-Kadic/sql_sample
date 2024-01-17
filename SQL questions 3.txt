@@ -13,3 +13,5 @@ Most of these aggregate functions go together with
 GROUP BY - used with aggregate functions to combine data from one or more columns
 HAVING - limits the results of a quary based on an aggregate property.
 
+WHAT DOES AS DO IN SQL?
+AS allows you to rename a column using an alias.
