@@ -15,3 +15,6 @@ HAVING - limits the results of a quary based on an aggregate property.
 
 WHAT DOES AS DO IN SQL?
 AS allows you to rename a column using an alias.
+
+WHAT DOES THE DISTINCT KEYWORD DO?
+It allows you to return only unique values without duplicates.
