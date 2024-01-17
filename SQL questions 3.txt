@@ -16,5 +16,21 @@ HAVING - limits the results of a quary based on an aggregate property.
 WHAT DOES AS DO IN SQL?
 AS allows you to rename a column using an alias.
 
+SELECT name AS 'Movietitle'
+from inventory;
+
 WHAT DOES THE DISTINCT KEYWORD DO?
 It allows you to return only unique values without duplicates.
+
+EXAMPLE
+SELECT DISTINCT tools 
+FROM inventory;
+
+What does LIKE do?
+LIKE is a special operator used with the WHERE clause to search for a specific pattern in a column.
+
+EXAMPLE
+SELECT * 
+FROM movies
+WHERE name LIKE 'Se_en';
+
