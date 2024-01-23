@@ -18,3 +18,15 @@ NORMALIZATION is the process of organizing data in a database to reduce redundan
 DATA INTEGRITY is very important - ensuring that data remains accurate and consistant. This is achieved by using constraints such as primary key, foreign key, unique and check constraints.
 
 ACID PROPERTIES refer to (Atomicity, Consistency, Isolation and Durability), ensuring that transactions are reliable and maintain integrity of database.
+
+IMPORTANCE IN DATA MANAGEMENT:
+
+Relational databases provide a structured and organized way to store and manage data.
+
+They make retrieval of data easy.
+
+Relationships between tables allow for complex data modeling and analysis.
+
+The normalization process enhances data integority and reduces redundancy.
+
+ACID properties ensure the reliability of database transactions.
