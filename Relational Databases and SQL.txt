@@ -12,3 +12,5 @@ COLUMS represent that attributes or properties of the date stored in the databas
 A PRIMARY KEY is a unique idenfitier that ensures that each row in the table is a unique value. It is most often set to the ID - auto incrementing.
 
 A FOREIGN KEY is a idenfitier in one table that is the connected to the primary key in another table. It creates relationships between two tables. It allows you to connected them.
+
+NORMALIZATION is the process of organizing data in a database to reduce redundancy and dependency. It involves breaking down large tables into smaller much more managable ones.
