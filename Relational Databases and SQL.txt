@@ -8,3 +8,7 @@ A TABLE IS A MAIN STRUCTURE OF A RELATIONAL DATABASE.
 EACH ROW represents a single record or entry in the database.
 
 COLUMS represent that attributes or properties of the date stored in the database.
+
+A PRIMARY KEY is a unique idenfitier that ensures that each row in the table is a unique value. It is most often set to the ID - auto incrementing.
+
+A FOREIGN KEY is a idenfitier in one table that is the connected to the primary key in another table. It creates relationships between two tables. It allows you to connected them.
