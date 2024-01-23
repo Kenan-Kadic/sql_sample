@@ -9,3 +9,7 @@ Example: If a transaction involves transferring money from one account to anothe
 CONSISTENCY ensures that a transaction brings the database from one consistant state to another. It enforces integrity constraints, maintaning the accuracy and validity of the data.
 
 Example: If a database has a constraint that all account balances must remain positive, consistency ensures that a transaction doesn't violate this rule. If a transaction would result in an inconsistent state, it is rolled back.
+
+ISOLATION ensures that multiple transactions can occur concurrently without interfering with each other. Each one is separate.
+
+DURABILITY: Durability guarantees that once a transaction is committed, its effects are permanent and survive any subsequent system failures. 
