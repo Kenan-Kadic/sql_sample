@@ -1,2 +1,5 @@
 DETAILS ON ACID PROPERTIES OF RELATIONAL DATABASES
 
+ACID PROPERTIES are principles. Their goal is to guarantee the reliability of database transactions.
+
+ATOMICITY ensures that a transaction is treated as a single, indivisible unit of work. Either all changes made to the transaction are commited to the database or none of them are.
