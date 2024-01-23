@@ -3,3 +3,9 @@ DETAILS ON ACID PROPERTIES OF RELATIONAL DATABASES
 ACID PROPERTIES are principles. Their goal is to guarantee the reliability of database transactions.
 
 ATOMICITY ensures that a transaction is treated as a single, indivisible unit of work. Either all changes made to the transaction are commited to the database or none of them are.
+
+Example: If a transaction involves transferring money from one account to another, atomicity ensures that both the debit from one account and the credit to the other occur together. If any part of the transaction fails (e.g., due to a system crash), the entire transaction is rolled back to its original state.
+
+CONSISTENCY ensures that a transaction brings the database from one consistant state to another. It enforces integrity constraints, maintaning the accuracy and validity of the data.
+
+Example: If a database has a constraint that all account balances must remain positive, consistency ensures that a transaction doesn't violate this rule. If a transaction would result in an inconsistent state, it is rolled back.
