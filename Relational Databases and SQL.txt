@@ -14,3 +14,6 @@ A PRIMARY KEY is a unique idenfitier that ensures that each row in the table is 
 A FOREIGN KEY is a idenfitier in one table that is the connected to the primary key in another table. It creates relationships between two tables. It allows you to connected them.
 
 NORMALIZATION is the process of organizing data in a database to reduce redundancy and dependency. It involves breaking down large tables into smaller much more managable ones.
+
+DATA INTEGRITY is very important - ensuring that data remains accurate and consistant. This is achieved by using constraints such as primary key, foreign key, unique and check constraints.
+
