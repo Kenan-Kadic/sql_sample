@@ -3,4 +3,8 @@ DETAILS ON RELATIONAL DATABASES AND SQL
 WHAT IS A RELATIONAL DATABASE?
 A relational database organizes data into tables, which consist of rows and columns. The goal is to have structured and efficient ways to store and retreive data. Each row in a table represents a record, while each column represents a specific attribute of that record.
 
-A TABLE IS A MAIN STRUCTURE OF A RELATIONAL DATABASE
+A TABLE IS A MAIN STRUCTURE OF A RELATIONAL DATABASE.
+
+EACH ROW represents a single record or entry in the database.
+
+COLUMS represent that attributes or properties of the date stored in the database.
