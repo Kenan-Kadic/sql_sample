@@ -34,7 +34,7 @@ example
   SET twitter_handle = '@Kenan'
   WHERE id = 4;
 
- This is not to be confused with ALTER TABLE which modifies the structure of an existig table by adding or removing columns or changing the structure of data types.
+ This is not to be confused with ALTER TABLE which modifies the structure of an existing table by adding or removing columns or changing the structure of data types.
 
  WHAT DOES DELETE FROM DO?
 The DELETE FROM statement is for deleting existing records. It deletes one or more rows from a table. 
@@ -45,7 +45,7 @@ EXAMPLE
 
 WHAT ARE CONSTRAINTS?
 
-Constraints restrict the type of data that can be used for a column. If the informaiton added is not in the correct datatype it will be rejected.
+Constraints restrict the type of data that can be used for a column. If the information added is not in the correct datatype it will be rejected.
 
 EXAMPLE
  CREATE TABLE celebs (
