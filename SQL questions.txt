@@ -26,7 +26,7 @@ ORDER BY is a sql clause that allows you to order the results of your query in a
 
 WHAT IS GROUP BY?
 
-GROUP BY allows you to order the results of your query search by columns but it is often used for summary columns with aggregate functions like MIN MAX AVG. It is often used to find summarizing information and doing calulation on data such as total sales per year.
+GROUP BY allows you to order the results of your query search by columns but it is often used for summary columns with aggregate functions like MIN MAX AVG. It is often used to find summarizing information and doing calculation on data such as total sales per year.
 
 WHAT IS AN INDEX IN SQL?
 
@@ -34,16 +34,16 @@ An Index in sql is a database object, whose purpose it is to make searches faste
 
 WHAT IS UNION and what is UNION ALL in SQL?
 
-UNION ALL is a way to combine two SELECT statements in SQL together, and it provides only distinct results with no dublicates included. UNION ALL also provides the results of two SELCT statements together, but it includes all results inlcuding duplicate values.
+UNION ALL is a way to combine two SELECT statements in SQL together, and it provides only distinct results with no duplicates included. UNION ALL also provides the results of two SELCT statements together, but it includes all results including duplicate values.
 
-WHAT IS THE DIFFERNCE BETWEEN WHERE AND HAVING IN SQL?
+WHAT IS THE DIFFERENCE BETWEEN WHERE AND HAVING IN SQL?
 
 The WHERE clause filters rows before any grouping or aggregation occurs.
 The HAVING clause is filters rows after grouping and aggregation occurs.
 
 WHAT IS A INNER JOIN?
 
-An INNER JOIN is a type of SQL join, in which a column from one table has its values compared to a column from another tables. Only if the values match, the results of the quary are presented. 
+An INNER JOIN is a type of SQL join, in which a column from one table has its values compared to a column from another tables. Only if the values match, the results of the query are presented. 
 
 WHAT IS A LEFT JOIN?
 
@@ -51,19 +51,19 @@ A LEFT JOIN is a type of SQL JOIN, in which a column from the left table has its
 
 WHAT IS A RIGHT JOIN?
 
-A RIGHT JOIN is a type of SQL JOIN, in which a colum from the left table has its values compared to a column from the right table. All results from the right table are displyed, while only the matching results from the left table are displayed. If there is no match in left table, NUll values are presented.
+A RIGHT JOIN is a type of SQL JOIN, in which a column from the left table has its values compared to a column from the right table. All results from the right table are displayed, while only the matching results from the left table are displayed. If there is no match in left table, NUll values are presented.
 
 WHAT IS A FULL JOIN?
 
-A FULL JOIN is a type of SQL JOIN, in which a colum from the left table has its values compared to a column from the right table. All results from the right table and left table are displayed. If there is no match, NUll values are presented.
+A FULL JOIN is a type of SQL JOIN, in which a column from the left table has its values compared to a column from the right table. All results from the right table and left table are displayed. If there is no match, NUll values are presented.
 
 WHAT IS NORMALIZATION?
 
-Normalization is a organzing and structuring technique for databases, that reduces redundancy and ensures data integrity. It is based on the idea of First Normal Form, Second Normal Form and Third Normal form.
+Normalization is a organizing and structuring technique for databases, that reduces redundancy and ensures data integrity. It is based on the idea of First Normal Form, Second Normal Form and Third Normal form.
 
 WHAT ARE CONSTRAINTS IN SQL?
 
-Constraints are rules on conditions applied to a column in SQL for the purpose of data integrity and accuracy. They put restriction on what type of data can be inserted, udpated, deleted from the table.
+Constraints are rules on conditions applied to a column in SQL for the purpose of data integrity and accuracy. They put restriction on what type of data can be inserted, updated, deleted from the table.
 
 WHAT IS A VIEW IN SQL?
 
